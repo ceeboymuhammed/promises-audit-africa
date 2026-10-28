@@ -695,7 +695,8 @@ export default function Home() {
           </div>
 
           <p className="text-xs text-slate-400">
-            © {new Date().getFullYear()} Clin MultiCom Services 
+             © 2026 Clin MultiCom Services | All rights reserved. 
+             
           </p>
         </div>
       </footer>

@@ -1,7 +1,7 @@
 
 "use client";
 
-import { FormEvent, useState } from "react";
+import { FormEvent, Suspense, useState } from "react";
 import { useParams } from "next/navigation";
 import Link from "next/link";
 import {
@@ -195,7 +195,7 @@ const statusDescriptions: Record<Status, string> = {
   Failed: "This is a demonstration status, not a verified failure finding.",
 };
 
-export default function PromiseDetailPage() {
+function PromiseDetailContent() {
   const params = useParams<{ id: string }>();
   const id = Array.isArray(params.id) ? params.id[0] : params.id;
   const record = demoRecords[id];
@@ -546,5 +546,22 @@ export default function PromiseDetailPage() {
         Promises Audit Africa · Demonstration record · Not a verified audit finding
       </footer>
     </main>
+  );
+}
+export default function PromiseDetailPage() {
+  return (
+    <Suspense
+      fallback={
+        <main className="min-h-screen bg-slate-50 px-6 py-16">
+          <div className="mx-auto max-w-5xl">
+            <p className="text-sm text-slate-500">
+              Loading promise details...
+            </p>
+          </div>
+        </main>
+      }
+    >
+      <PromiseDetailContent />
+    </Suspense>
   );
 }
