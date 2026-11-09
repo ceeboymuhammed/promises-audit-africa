@@ -216,29 +216,33 @@ export default function AboutPage() {
             </h2>
 
             <div className="about-founder-role">
-              Founder, Clint Multicom Services
+              Broadcaster | Sports Journalist | Investigative Reporter | Documentarian
             </div>
 
             <p>
-              Agbor Clinton founded Clint Multicom Services around a simple
-              but important idea: commitments should not disappear after
-              they are announced.
+              Agbor Clinton Ayuk is a seasoned broadcaster with over two decades of experience at the forefront of Africa's media landscape.
             </p>
 
             <p>
-              Through media, investigative film and public-interest
-              storytelling, he seeks to build a platform that follows
-              promises beyond the announcement stage, examines the evidence
-              of delivery and gives recognition to those who fulfil their
-              commitments.
+              From the pinnacle of sports broadcasting to the heart of human stories, his voice has become synonymous with credibility, depth and passion. He has covered several World Cups across different sporting disciplines, bringing live action and insight to millions across the continent.
             </p>
 
             <p>
-              His vision is to make documentation, verification and
-              responsible storytelling central to how public commitments
-              are understood.
+              Beyond sports, Clinton has distinguished himself through fearless investigative reporting in politics and humanitarian affairs and is a respected commentator on national issues.
             </p>
+              <p>
+                Above all, telling human stories remains his greatest delight.
+              </p>
 
+              <p> He is the Founder of Clint MultiCom Services and Lead Producer and Presenter of Promises Audit Africa.
+              </p>
+
+              <p>
+                Promises Audit Programme has a clear objective: To track promises made across Africa, to audit and ensure that works are completed as promised, and to celebrate promise keepers who deliver on their word.
+            </p>
+             <p>
+                Today, he is fulfilling his promise of documentary storytelling — tracking, auditing, ensuring completion and celebrating integrity across Africa.
+              </p>
             <Link href="/contact" className="about-inline-link">
               Contact the company <ArrowUpRight size={17} />
             </Link>

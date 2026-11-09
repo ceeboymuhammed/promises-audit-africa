@@ -110,9 +110,9 @@ export default function HomePage() {
             </h1>
 
             <p>
-              We investigate commitments, document realities and tell the
-              stories that matter. Because accountability begins when someone
-              follows through.
+              We Audit Promises. We Ensure Completion. We Celebrate Keepers.
+
+We track promises across Africa to ensure works are completed as promised — and we honor those who deliver.
             </p>
 
             <div className="cms-hero-actions">
@@ -266,21 +266,32 @@ export default function HomePage() {
               follow the evidence, examine progress and document what happens
               after the announcement.
             </p>
-
+<p className="cms-programme-lead">
+Promises Audit Africa was founded on a triple mandate:
+            </p>
             <div className="cms-programme-points">
               <div>
                 <ShieldCheck size={19} />
-                <span>Track public commitments</span>
+                <span>To Track and Audit Promises</span>
               </div>
+                <p>
+              We track promises made by leaders, governments, institutions and individuals across Africa. We monitor timelines, verify evidence and audit progress on the ground.
+            </p>
               <div>
                 <FileText size={19} />
-                <span>Examine evidence and delivery</span>
+                <span>To Ensure Works Are Completed as Promised</span>
               </div>
+                <p>
+                  Beyond tracking, we follow up to ensure that projects, commitments and works are actually completed as promised. Accountability through verification.
+                </p>
               <div>
                 <Globe2 size={19} />
-                <span>Recognise verified promise keepers</span>
+                <span>To Celebrate Promise Keepers</span>
               </div>
             </div>
+              <p>
+                When promises are kept and works are completed, we celebrate. We publicly honor and amplify those who keep their word to inspire a culture of integrity and promise-keeping across Africa.
+              </p>
 
             <Link href="/promises" className="cms-button cms-button-dark">
               Explore Promises Audit Africa <ArrowRight size={17} />

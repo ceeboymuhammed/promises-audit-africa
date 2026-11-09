@@ -3170,9 +3170,6 @@ img {
   position: relative;
 }
 
-.site-menu-toggle {
-  display: none;
-}
 
 .site-nav-links {
   display: flex;
@@ -3328,63 +3325,49 @@ img {
    TABLET & MOBILE NAVIGATION
 ========================================= */
 
+
 @media (max-width: 1050px) {
   .site-header-inner {
     width: calc(100% - 40px);
   }
 
-  .site-menu-toggle {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    padding: 12px 14px;
-    border: 1px solid rgba(255, 255, 255, 0.25);
-    border-radius: 5px;
-    color: #fff;
-    cursor: pointer;
-    list-style: none;
-    font-size: 11px;
-    font-weight: 700;
-    letter-spacing: 1px;
-  }
+ .site-menu-toggle {
+  display: none;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 14px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 5px;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
 
-  .site-menu-toggle::-webkit-details-marker {
-    display: none;
-  }
+.site-menu-icon {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 17px;
+}
 
-  .menu-close-label {
-    display: none;
-  }
-
-  .site-navigation[open] .menu-open-label {
-    display: none;
-  }
-
-  .site-navigation[open] .menu-close-label {
-    display: inline;
-  }
-
-  .site-menu-icon {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-    width: 17px;
-  }
-
-  .site-menu-icon i {
-    display: block;
-    width: 17px;
-    height: 2px;
-    background: #c6a96b;
-  }
+.site-menu-icon i {
+  display: block;
+  width: 17px;
+  height: 2px;
+  background: #c6a96b;
+}
 
   .site-nav-links {
+    display: none;
     position: absolute;
     top: calc(100% + 14px);
     right: 0;
     width: min(320px, calc(100vw - 40px));
     padding: 16px;
-    display: flex;
     flex-direction: column;
     align-items: stretch;
     gap: 7px;
@@ -3392,6 +3375,10 @@ img {
     border: 1px solid rgba(255, 255, 255, 0.14);
     border-radius: 7px;
     box-shadow: 0 18px 40px rgba(0, 0, 0, 0.3);
+  }
+
+  .site-nav-links.is-open {
+    display: flex;
   }
 
   .site-nav-link {
