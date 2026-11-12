@@ -393,7 +393,7 @@ Promises Audit Africa was founded on a triple mandate:
         <div className="container-main cms-founder-grid">
           <div className="cms-founder-photo">
             <Image
-              src="/Mr%20Agbor%20Clinton.jpeg"
+              src="/logo.jpg"
               alt="Agbor Clinton, Founder of Clint Multicom Services"
               width={700}
               height={850}

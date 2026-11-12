@@ -23,7 +23,7 @@ export default function SiteFooter() {
         <div className="site-footer-column">
           <h3>Explore</h3>
           <Link href="/about">About us</Link>
-          <Link href="/investigations">Investigations</Link>
+          <Link href="/Documentaries">Documentaries</Link>
           <Link href="/watch">Watch</Link>
           <Link href="/promises">Promises Audit Africa</Link>
           <Link href="/submit">Submit a Promise</Link>

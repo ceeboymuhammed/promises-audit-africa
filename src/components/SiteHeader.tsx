@@ -8,8 +8,8 @@ import Link from "next/link";
 const navigation = [
   { label: "Home", href: "/" },
   { label: "About", href: "/about" },
-  { label: "Investigations", href: "/investigations" },
-  { label: "Watch", href: "/watch" },
+  { label: "Awards", href: "/awards" },
+  { label: "Documentary", href: "/documentary" },
   { label: "Promises Audit", href: "/promises" },
 ];
 
