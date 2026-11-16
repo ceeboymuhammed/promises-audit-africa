@@ -35,8 +35,8 @@ export default function SiteFooter() {
           <a href="https://wa.me/2348069666634" target="_blank" rel="noopener noreferrer">
             WhatsApp us
           </a>
-          <a href="mailto:hello@clintmulticomservices.com">
-            hello@clintmulticomservices.com
+          <a href="mailto:promisesaudit@clintmulticomservices.com">
+            promisesaudit@clintmulticomservices.com
           </a>
           <span className="site-footer-social">
             Social media: @clintmuticom

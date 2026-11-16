@@ -1,4 +1,4 @@
-
+import PromiseKeepersCode from "../components/PromiseKeepersCode";
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -299,7 +299,7 @@ Promises Audit Africa was founded on a triple mandate:
           </div>
         </div>
       </section>
-
+<PromiseKeepersCode />
       {/* AFRICA INVESTIGATION MAP */}
       <section className="cms-africa section-padding">
         <div className="container-main cms-africa-grid">

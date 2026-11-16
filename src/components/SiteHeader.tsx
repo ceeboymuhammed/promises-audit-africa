@@ -8,9 +8,10 @@ import Link from "next/link";
 const navigation = [
   { label: "Home", href: "/" },
   { label: "About", href: "/about" },
-  { label: "Awards", href: "/awards" },
   { label: "Documentary", href: "/documentary" },
+  { label: "Awards", href: "/awards" },
   { label: "Promises Audit", href: "/promises" },
+  { label: "Donations", href: "/donations" },
 ];
 
 export default function SiteHeader() {
@@ -33,7 +34,6 @@ export default function SiteHeader() {
             className="site-brand-logo"
             priority
           />
-
           <span className="site-brand-text">
             <strong>CLINT MULTICOM</strong>
             <small>MEDIA & INVESTIGATIONS</small>
@@ -48,7 +48,6 @@ export default function SiteHeader() {
           onClick={() => setMenuOpen(!menuOpen)}
         >
           <span>{menuOpen ? "CLOSE" : "MENU"}</span>
-
           <span className="site-menu-icon" aria-hidden="true">
             <i />
             <i />
