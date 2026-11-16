@@ -4164,3 +4164,394 @@ img {
     padding: 70px 0;
   }
 }
+
+
+/* PROMISE KEEPERS CODE */
+
+.pkc-section {
+  padding: 100px 0;
+  background: #101e2b;
+  color: #fff;
+}
+
+.pkc-container {
+  width: min(1120px, calc(100% - 40px));
+  margin: 0 auto;
+}
+
+.pkc-heading {
+  max-width: 680px;
+  margin-bottom: 55px;
+}
+
+.pkc-eyebrow {
+  display: block;
+  margin-bottom: 18px;
+  color: #c6a96b;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.pkc-heading h2 {
+  margin: 0 0 20px;
+  font-size: clamp(42px, 7vw, 72px);
+  line-height: .98;
+  letter-spacing: -3px;
+}
+
+.pkc-heading h2 span {
+  color: #c6a96b;
+}
+
+.pkc-heading > p {
+  max-width: 580px;
+  color: rgba(255,255,255,.68);
+  font-size: 16px;
+  line-height: 1.85;
+}
+
+.pkc-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.pkc-card {
+  min-height: 235px;
+  padding: 25px 20px;
+  border: 1px solid rgba(255,255,255,.14);
+  border-radius: 5px;
+  background: rgba(255,255,255,.035);
+  transition: background .25s ease, transform .25s ease;
+}
+
+.pkc-card:hover {
+  background: rgba(198,169,107,.09);
+  transform: translateY(-5px);
+}
+
+.pkc-number {
+  color: #c6a96b;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.pkc-card-line {
+  width: 35px;
+  height: 2px;
+  margin: 28px 0 22px;
+  background: #c6a96b;
+}
+
+.pkc-card h3 {
+  margin: 0 0 13px;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: .3px;
+}
+
+.pkc-card p {
+  margin: 0;
+  color: rgba(255,255,255,.62);
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.pkc-identity {
+  padding: 85px 0 95px;
+  background: #f1eee6;
+  color: #101e2b;
+}
+
+.pkc-identity-heading {
+  margin-bottom: 40px;
+}
+
+.pkc-identity-heading h2 {
+  margin: 0;
+  font-size: clamp(32px, 5vw, 46px);
+  letter-spacing: -1.5px;
+}
+
+.pkc-identity-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.pkc-identity-grid article {
+  min-height: 190px;
+  padding: 30px;
+  border: 1px solid #dedbd2;
+  background: rgba(255,255,255,.65);
+}
+
+.pkc-identity-grid article > span {
+  color: #9c7c3f;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+}
+
+.pkc-identity-grid h3 {
+  margin: 25px 0 0;
+  font-size: 23px;
+  line-height: 1.35;
+  letter-spacing: -.5px;
+}
+
+@media (max-width: 1000px) {
+  .pkc-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .pkc-card:last-child {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 650px) {
+  .pkc-section,
+  .pkc-identity {
+    padding: 65px 0;
+  }
+
+  .pkc-heading h2 {
+    letter-spacing: -1.5px;
+  }
+
+  .pkc-grid,
+  .pkc-identity-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pkc-card:last-child {
+    grid-column: auto;
+  }
+
+  .pkc-card {
+    min-height: auto;
+  }
+
+  .pkc-identity-grid article {
+    min-height: 150px;
+  }
+}
+
+/* =========================================
+   PROMISE KEEPERS CODE
+========================================= */
+
+.pkc-section {
+  position: relative;
+  width: 100%;
+  padding: 100px 24px;
+  background: #f5f4f0;
+  color: #101e2b;
+  overflow: hidden;
+}
+
+.pkc-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.pkc-heading {
+  max-width: 650px;
+  margin-bottom: 55px;
+}
+
+.pkc-eyebrow {
+  display: inline-block;
+  margin-bottom: 18px;
+  color: #a88645;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 2.5px;
+  line-height: 1.6;
+}
+
+.pkc-heading h2 {
+  margin: 0 0 20px;
+  color: #101e2b;
+  font-size: clamp(36px, 5vw, 62px);
+  font-weight: 800;
+  line-height: 1.05;
+  letter-spacing: -2px;
+}
+
+.pkc-heading h2 span {
+  color: #a88645;
+}
+
+.pkc-heading p {
+  max-width: 570px;
+  margin: 0;
+  color: #66717b;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.pkc-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.pkc-card {
+  min-height: 245px;
+  padding: 28px 22px;
+  background: #ffffff;
+  border: 1px solid #e6e3dc;
+  border-radius: 5px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.pkc-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 35px rgba(16, 30, 43, 0.09);
+}
+
+.pkc-number {
+  display: block;
+  color: #b49354;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.pkc-card-line {
+  width: 35px;
+  height: 2px;
+  margin: 23px 0;
+  background: #c6a96b;
+}
+
+.pkc-card h3 {
+  margin: 0 0 13px;
+  color: #101e2b;
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 1.5;
+}
+
+.pkc-card p {
+  margin: 0;
+  color: #68737d;
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+/* VISION, MISSION AND MOTTO */
+
+.pkc-identity {
+  width: 100%;
+  padding: 85px 24px;
+  background: #101e2b;
+  color: #ffffff;
+}
+
+.pkc-identity-heading {
+  margin-bottom: 42px;
+}
+
+.pkc-identity-heading h2 {
+  margin: 0;
+  color: #ffffff;
+  font-size: clamp(30px, 4vw, 46px);
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+
+.pkc-identity-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 35px;
+}
+
+.pkc-identity-grid article {
+  padding: 28px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.pkc-identity-grid article span {
+  display: block;
+  margin-bottom: 20px;
+  color: #c6a96b;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.pkc-identity-grid article h3 {
+  max-width: 330px;
+  margin: 0;
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+/* TABLET */
+
+@media (max-width: 1000px) {
+  .pkc-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .pkc-card:last-child {
+    grid-column: 1 / -1;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+  .pkc-section {
+    padding: 70px 20px;
+  }
+
+  .pkc-heading {
+    margin-bottom: 35px;
+  }
+
+  .pkc-heading h2 {
+    font-size: 39px;
+    letter-spacing: -1.5px;
+  }
+
+  .pkc-heading p {
+    font-size: 14px;
+  }
+
+  .pkc-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .pkc-card,
+  .pkc-card:last-child {
+    grid-column: auto;
+    min-height: auto;
+    padding: 25px;
+  }
+
+  .pkc-identity {
+    padding: 65px 20px;
+  }
+
+  .pkc-identity-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .pkc-identity-grid article {
+    padding: 23px 0;
+  }
+
+  .pkc-identity-grid article h3 {
+    font-size: 19px;
+  }
+}
